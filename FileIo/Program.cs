@@ -10,6 +10,7 @@
             //fileOperation.ReadText();
             //fileOperation.Copypath();
             fileOperation.Deletepath();
+            S
         }
     }
 }
