@@ -43,5 +43,11 @@ namespace FileIo
             string copytext = File.ReadAllText(copyFile1);
             Console.WriteLine(copytext);
         }
+        public void Deletepath()
+        {
+            string copyFile1 = @"E:\Basic Core Program\FileIo\Day27_FileIo\FileIo\CopyFile.txt";
+            File.Delete(copyFile1);
+            Console.WriteLine("Delete Successful ");
+        }
     }
 }

@@ -8,7 +8,8 @@
             //fileOperation.CheckFile();
             //fileOperation.ReadAll();
             //fileOperation.ReadText();
-            fileOperation.Copypath();
+            //fileOperation.Copypath();
+            fileOperation.Deletepath();
         }
     }
 }
