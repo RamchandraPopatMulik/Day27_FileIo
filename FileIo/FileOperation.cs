@@ -34,5 +34,14 @@ namespace FileIo
             string Text = File.ReadAllText(filepath1);
             Console.WriteLine(Text);
         }
+        public void Copypath()
+        {
+            string filepath1 = @"E:\Basic Core Program\FileIo\Day27_FileIo\FileIo\WordFile.txt";
+            string copyFile1 = @"E:\Basic Core Program\FileIo\Day27_FileIo\FileIo\CopyFile.txt";
+            File.Copy(filepath1, copyFile1, true);
+            Console.WriteLine("FileCopy Successful");
+            string copytext = File.ReadAllText(copyFile1);
+            Console.WriteLine(copytext);
+        }
     }
 }
