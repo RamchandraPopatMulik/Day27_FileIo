@@ -20,5 +20,13 @@ namespace FileIo
                 Console.WriteLine("File Not Exist");
             }
         }
+        public void ReadAll()
+        {
+            string filepath1 = @"E:\Basic Core Program\FileIo\Day27_FileIo\FileIo\WordFile.txt";
+            string[] lines;
+            lines = File.ReadAllLines(filepath1);
+            Console.WriteLine(lines[0]);
+            Console.WriteLine(lines[1]);
+        }
     }
 }
