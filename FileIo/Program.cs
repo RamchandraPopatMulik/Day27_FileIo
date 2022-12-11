@@ -7,6 +7,7 @@
             FileOperation fileOperation= new FileOperation();
             fileOperation.CheckFile();
             fileOperation.ReadAll();
+            fileOperation.ReadText();
         }
     }
 }

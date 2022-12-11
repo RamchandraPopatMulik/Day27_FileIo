@@ -28,5 +28,11 @@ namespace FileIo
             Console.WriteLine(lines[0]);
             Console.WriteLine(lines[1]);
         }
+        public void ReadText()
+        {
+            string filepath1 = @"E:\Basic Core Program\FileIo\Day27_FileIo\FileIo\WordFile.txt";
+            string Text = File.ReadAllText(filepath1);
+            Console.WriteLine(Text);
+        }
     }
 }
